@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liga SMK</title>
+  <link href="/dist/output.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- --------------------------------------- NAVIGATION BAR --------------------------------------- -->
+  <header class="spacing-x sm:px-16 px-6 flex justify-center items-center bg-white fixed w-full top-0 py-4 border-b z-10">
+    <nav class="container w-full max-w-[1080px] flex justify-between">
+      <a class="logo" href="#home">
+        <img src="../assets/logo-ligasmk-dark.png" alt="logo-ligasmk" class="w-28" />
+      </a>
+      <ul class="navlist hidden md:flex items-center gap-3">
+        <li>
+          <a href="#home"
+            class="flex items-center gap-1 hover:text-blue-purple hover:bg-slate-100 py-1 px-3 rounded-md text-sm">Home<span><img
+                src="../assets/icon-arrow-bottom.svg" alt="" /></span></a>
+        </li>
+        <li>
+          <a href="#benefits"
+            class="flex items-center gap-1 hover:text-blue-purple hover:bg-slate-100 py-1 px-3 rounded-md text-sm">About
+            us<span><img src="../assets/icon-arrow-bottom.svg" alt="" /></span></a>
+        </li>
+        <li>
+          <a href="#kelas"
+            class="flex items-center gap-1 hover:text-blue-purple hover:bg-slate-100 py-1 px-3 rounded-md text-sm">Kelas<span><img
+                src="../assets/icon-arrow-bottom.svg" alt="" /></span></a>
+        </li>
+        <li>
+          <a href="#events"
+            class="flex items-center gap-1 hover:text-blue-purple hover:bg-slate-100 py-1 px-3 rounded-md text-sm">Blog<span><img
+                src="../assets/icon-arrow-bottom.svg" alt="" /></span></a>
+        </li>
+        <li>
+          <a href="#try-cta"
+            class="flex items-center gap-1 hover:text-blue-purple hover:bg-slate-100 py-1 px-3 rounded-md text-sm">Kontak</span></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BASE  -->
+  <main id="home">
+    <!-- --------------------------------------- HERO SECTION --------------------------------------- -->
+    <section id="hero" class="spacing-x sm:px-16 px-6 flex justify-center bg-blue-young py-28 max-h-screen h-max">
+      <div class="container w-full max-w-[1080px]">
+        <div class="hero-content w-full flex justify-between items-center">
+          <div class="left-side h-full">
+            <h1 class="text-4xl md:text-6xl leading-9 md:leading-[70px] font-bold">Bergabunglah <br /> dengan jutaan <br /> orang dan <br />
+              belajar hal baru</h1>
+            <p class="my-10 text-slate-500 text-md md:text-lg">Mengubah kehidupan, bisnis, dan bangsa melalui <br /> transformasi
+              talenta di bidang teknologi digital.</p>
+            <a href="#kelas"
+              class="inline-flex py-3 px-6 items-center gap-14 bg-blue-purple hover:bg-blue-purple-hover text-white rounded-md text-sm">Mulai
+              Belajar <span><img src="../assets/icon-arrowlong-right.svg" alt="icon-right"></span></a>
+          </div>
+          <div class="right-side hidden md:flex justify-end">
+            <img src="../assets/shape-diagram.png" alt="woman-shape" class="w-[80%]">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------  BENEFITS SECTION --------------------------------------- --------------------------------------- -->
+    <section id="benefits" class="spacing-x sm:px-16 px-6 flex justify-center items-center bg-yellow-benefit">
+      <div class="container w-full max-w-[1080px] grid grid-cols-1 md:grid-cols-3 py-12">
+        <div class="benefit flex items-center gap-5 my-5">
+          <figure>
+            <img src="../assets/icon-online-education.svg" alt="globe-handphone">
+          </figure>
+          <div class="benefit-point">
+            <h1 class="font-bold text-lg">Membangun Karir</h1>
+            <p class="font-normal text-md">Semua yang butuh kerja</p>
+          </div>
+        </div>
+        <div class="benefit flex items-center gap-5 my-5">
+          <figure>
+            <img src="../assets/icon-globe-handphone.svg" alt="globe-handphone">
+          </figure>
+          <div class="benefit-point">
+            <h1 class="font-bold text-lg">Cari Materi Belajar</h1>
+            <p class="font-normal text-md">Seberapa pengetahuan kamu</p>
+          </div>
+        </div>
+        <div class="benefit flex items-center gap-5 my-5">
+          <figure>
+            <img src="../assets/icon-online-education-laptop.svg" alt="globe-handphone">
+          </figure>
+          <div class="benefit-point">
+            <h1 class="font-bold text-lg">Kuasai Skill baru</h1>
+            <p class="font-normal text-md">Fokus apa yang dibutuhkan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------- POPULAR SECTION --------------------------------------- -->
+    <section id="kelas" class="spacing-x sm:px-16 px-6 flex justify-center items-center">
+      <div class="container w-full max-w-[1080px] pt-24 pb-10">
+        <header class="grid grid-cols-1 md:grid-cols-2">
+          <h1 class="title-popular text-3xl font-bold">Pembelajaran <span class="underline-custom">Populer</span></h1>
+          <ul class="filter-course lg:flex grid grid-cols-3 gap-1 my-5">
+            <li
+              class="font-semibold text-sm bg-white shadow-xl hover:shadow-md hover:bg-gray-50 hover:text-slate-500 py-2 px-4 rounded-sm cursor-pointer text-slate-900">
+              Javascript</li>
+            <li
+              class="text-sm text-center hover:shadow-md hover:bg-white hover:text-black transition-all ease-in py-2 px-4 rounded-sm cursor-pointer text-slate-500">
+              Python</li>
+            <li
+              class="text-sm hover:shadow-md hover:bg-white hover:text-black transition-all ease-in py-2 px-4 rounded-sm cursor-pointer text-slate-500">
+              Web Development</li>
+            <li
+              class="text-sm hover:shadow-md hover:bg-white hover:text-black transition-all ease-in py-2 px-4 rounded-sm cursor-pointer text-slate-500">
+              Art & Design</li>
+            <li
+              class="text-sm hover:shadow-md hover:bg-white hover:text-black transition-all ease-in py-2 px-4 rounded-sm cursor-pointer text-slate-500">
+              Business</li>
+          </ul>
+        </header>
+        <div class="cards grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 py-16">
+          <!-- CARD 1 -->
+          <div class="card border">
+            <figure class="relative">
+              <img src="../assets/course-1.png" alt="course-1" class="w-full">
+              <span
+                class="absolute top-0 px-2 bg-yellow-benefit uppercase font-bold text-sm m-4 shadow-[5px_5px_0px_0px_#000000]">new</span>
+            </figure>
+            <div class="content-card p-5">
+              <p class="label-card text-blue-purple text-xs font-semibold">Alen Mask</p>
+              <h1 class="text-lg font-bold">Why Learn Intermediate SQL for Markerters?</h1>
+              <div class="information-card py-3 flex gap-5">
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-hamburger.svg" alt="">
+                  Beginner
+                </span>
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-copy.svg" alt="">
+                  3 Lessons
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 2 -->
+          <div class="card max-w-xl border">
+            <figure class="relative">
+              <img src="../assets/course-2.png" alt="course-2" class="w-full">
+              <span
+                class="absolute top-0 px-2 bg-blue-purple text-white uppercase font-bold text-sm m-4 shadow-[5px_5px_0px_0px_#000000]">new</span>
+            </figure>
+            <div class="content-card p-5">
+              <p class="label-card text-blue-purple text-xs font-semibold">Alen Mask</p>
+              <h1 class="text-lg font-bold">Why Learn Intermediate SQL for Markerters?</h1>
+              <div class="information-card py-3 flex gap-5">
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-hamburger.svg" alt="">
+                  Beginner
+                </span>
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-copy.svg" alt="">
+                  3 Lessons
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 3 -->
+          <div class="card max-w-xl border">
+            <figure class="relative">
+              <img src="../assets/course-3.png" alt="course-3" class="w-full">
+              <span
+                class="absolute top-0 px-2 bg-pink-custom text-white uppercase font-bold text-sm m-4 shadow-[5px_5px_0px_0px_#000000]">new</span>
+            </figure>
+            <div class="content-card p-5">
+              <p class="label-card text-blue-purple text-xs font-semibold">Alen Mask</p>
+              <h1 class="text-lg font-bold">Why Learn Intermediate SQL for Markerters?</h1>
+              <div class="information-card py-3 flex gap-5">
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-hamburger.svg" alt="">
+                  Beginner
+                </span>
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-copy.svg" alt="">
+                  3 Lessons
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 4 -->
+          <div class="card max-w-xl border">
+            <figure class="relative">
+              <img src="../assets/course-4.png" alt="course-4" class="w-full">
+              <span
+                class="absolute top-0 px-2 bg-blue-young-2 text-white uppercase font-bold text-sm m-4 shadow-[5px_5px_0px_0px_#000000]">new</span>
+            </figure>
+            <div class="content-card p-5">
+              <p class="label-card text-blue-purple text-xs font-semibold">Alen Mask</p>
+              <h1 class="text-lg font-bold">Why Learn Intermediate SQL for Markerters?</h1>
+              <div class="information-card py-3 flex gap-5">
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-hamburger.svg" alt="">
+                  Beginner
+                </span>
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-copy.svg" alt="">
+                  3 Lessons
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 5 -->
+          <div class="card max-w-xl border">
+            <figure class="relative">
+              <img src="../assets/course-5.png" alt="course-5" class="w-full">
+              <span
+                class="absolute top-0 px-2 bg-yellow-benefit uppercase font-bold text-sm m-4 shadow-[5px_5px_0px_0px_#000000]">new</span>
+            </figure>
+            <div class="content-card p-5">
+              <p class="label-card text-blue-purple text-xs font-semibold">Alen Mask</p>
+              <h1 class="text-lg font-bold">Why Learn Intermediate SQL for Markerters?</h1>
+              <div class="information-card py-3 flex gap-5">
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-hamburger.svg" alt="">
+                  Beginner
+                </span>
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-copy.svg" alt="">
+                  3 Lessons
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 6 -->
+          <div class="card max-w-xl border" >
+            <figure class="relative">
+              <img src="../assets/course-6.png" alt="course-6" class="w-full">
+              <span
+                class="absolute top-0 px-2 bg-blue-purple text-white uppercase font-bold text-sm m-4 shadow-[5px_5px_0px_0px_#000000]">new</span>
+            </figure>
+            <div class="content-card p-5">
+              <p class="label-card text-blue-purple text-xs font-semibold">Alen Mask</p>
+              <h1 class="text-lg font-bold">Why Learn Intermediate SQL for Markerters?</h1>
+              <div class="information-card py-3 flex gap-5">
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-hamburger.svg" alt="">
+                  Beginner
+                </span>
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-copy.svg" alt="">
+                  3 Lessons
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 7 -->
+          <div class="card max-w-xl border">
+            <figure class="relative">
+              <img src="../assets/course-7.png" alt="course-7" class="w-full">
+              <span
+                class="absolute top-0 px-2 bg-pink-custom text-white uppercase font-bold text-sm m-4 shadow-[5px_5px_0px_0px_#000000]">new</span>
+            </figure>
+            <div class="content-card p-5">
+              <p class="label-card text-blue-purple text-xs font-semibold">Alen Mask</p>
+              <h1 class="text-lg font-bold">Why Learn Intermediate SQL for Markerters?</h1>
+              <div class="information-card py-3 flex gap-5">
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-hamburger.svg" alt="">
+                  Beginner
+                </span>
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-copy.svg" alt="">
+                  3 Lessons
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 8 -->
+          <div class="card max-w-xl border">
+            <figure class="relative">
+              <img src="../assets/course-8.png" alt="course-8" class="w-full">
+              <span
+                class="absolute top-0 px-2 bg-blue-young-2 text-white uppercase font-bold text-sm m-4 shadow-[5px_5px_0px_0px_#000000]">new</span>
+            </figure>
+            <div class="content-card p-5">
+              <p class="label-card text-blue-purple text-xs font-semibold">Alen Mask</p>
+              <h1 class="text-lg font-bold">Why Learn Intermediate SQL for Markerters?</h1>
+              <div class="information-card py-3 flex gap-5">
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-hamburger.svg" alt="">
+                  Beginner
+                </span>
+                <span class="flex items-center gap-2 text-sm">
+                  <img src="../assets/icon-copy.svg" alt="">
+                  3 Lessons
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------- MEMBERSHIP CTA SECTION --------------------------------------- -->
+    <section id="membership-cta" class="spacing-x sm:px-16 px-6 flex justify-center items-center bg-beige-custom py-12">
+      <div class="container w-full max-w-[1080px] flex items-center justify-center lg:justify-between flex-wrap lg:flex-nowrap ">
+        <figure>
+          <img src="../assets/membership-image.png" alt="">
+        </figure>
+        <h1 class="my-10 title-membership text-2xl lg:text-4xl leading-normal lg:leading-[50px] font-semibold">Dapatkan Membership Pro <br /> GRATIS untuk
+          kelas kamu</h1>
+        <div>
+          <a href="#kelas"
+            class="inline-flex py-3 px-6 items-center gap-5 bg-blue-purple hover:bg-blue-purple-hover text-white rounded-md text-sm">Lihat
+            semua kelas<span><img src="../assets/icon-arrowlong-right.svg" alt="icon-right"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------- CATEGORY SECTION --------------------------------------- -->
+    <section id="category-cta" class="spacing-x sm:px-16 px-6 flex justify-center items-center py-24">
+      <div class="container w-full max-w-[1080px]">
+        <h1 class="title-categories-popular text-3xl font-bold text-center">Kategori <span class="underline-custom">Populer</span></h1>
+        <div class="box-label-categories grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 my-16">
+          <!-- CATEGORY 1 -->
+          <div
+            class="label-category flex items-center gap-3 bg-white shadow-[0px_0px_40px_0px_#e2e8f0] p-3 rounded-md z-0">
+            <figure class="bg-slate-custom rounded-full p-2">
+              <img src="../assets/icon-chemical.svg" alt="chemical">
+            </figure>
+            <div class="content-label-category">
+              <h1 class="font-semibold text-md">Kimia</h1>
+              <p class="font-normal text-sm text-slate-600">2 Kelas</p>
+            </div>
+          </div>
+          <!-- CATEGORY 2 -->
+          <div
+            class="label-category flex items-center gap-3 bg-white shadow-[0px_0px_40px_0px_#e2e8f0] p-3 rounded-md z-0">
+            <figure class="bg-slate-custom rounded-full p-2">
+              <img src="../assets/icon-calendar.svg" alt="calendar">
+            </figure>
+            <div class="content-label-category">
+              <h1 class="font-semibold text-md">Managemen</h1>
+              <p class="font-normal text-sm text-slate-600">2 Kelas</p>
+            </div>
+          </div>
+          <!-- CATEGORY 3 -->
+          <div
+            class="label-category flex items-center gap-3 bg-white shadow-[0px_0px_40px_0px_#e2e8f0] p-3 rounded-md z-0">
+            <figure class="bg-slate-custom rounded-full p-2">
+              <img src="../assets/icon-pencil-ruler.svg" alt="pencil-ruler">
+            </figure>
+            <div class="content-label-category">
+              <h1 class="font-semibold text-md">Seni Budaya</h1>
+              <p class="font-normal text-sm text-slate-600">2 Kelas</p>
+            </div>
+          </div>
+          <!-- CATEGORY 4 -->
+          <div
+            class="label-category flex items-center gap-3 bg-white shadow-[0px_0px_40px_0px_#e2e8f0] p-3 rounded-md z-0">
+            <figure class="bg-slate-custom rounded-full p-2">
+              <img src="../assets/icon-briefcase.svg" alt="briefcase">
+            </figure>
+            <div class="content-label-category">
+              <h1 class="font-semibold text-md">Bisnis</h1>
+              <p class="font-normal text-sm text-slate-600">2 Kelas</p>
+            </div>
+          </div>
+          <!-- CATEGORY 5 -->
+          <div
+            class="label-category flex items-center gap-3 bg-white shadow-[0px_0px_40px_0px_#e2e8f0] p-3 rounded-md z-0">
+            <figure class="bg-slate-custom rounded-full p-2">
+              <img src="../assets/icon-science.svg" alt="science">
+            </figure>
+            <div class="content-label-category">
+              <h1 class="font-semibold text-md">Astrologi</h1>
+              <p class="font-normal text-sm text-slate-600">2 Kelas</p>
+            </div>
+          </div>
+          <!-- CATEGORY 6 -->
+          <div
+            class="label-category flex items-center gap-3 bg-white shadow-[0px_0px_40px_0px_#e2e8f0] p-3 rounded-md z-0">
+            <figure class="bg-slate-custom rounded-full p-2">
+              <img src="../assets/icon-rocket.png" alt="rocket">
+            </figure>
+            <div class="content-label-category">
+              <h1 class="font-semibold text-md">SEO/h1>
+                <p class="font-normal text-sm text-slate-600">2 Kelas</p>
+            </div>
+          </div>
+          <!-- CATEGORY 7 -->
+          <div
+            class="label-category flex items-center gap-3 bg-white shadow-[0px_0px_40px_0px_#e2e8f0] p-3 rounded-md z-0">
+            <figure class="bg-slate-custom rounded-full p-2">
+              <img src="../assets/icon-space.svg" alt="space">
+            </figure>
+            <div class="content-label-category">
+              <h1 class="font-semibold text-md">Kosmologi</h1>
+              <p class="font-normal text-sm text-slate-600">2 Kelas</p>
+            </div>
+          </div>
+          <!-- CATEGORY 8 -->
+          <div
+            class="label-category flex items-center gap-3 bg-white shadow-[0px_0px_40px_0px_#e2e8f0] p-3 rounded-md z-0">
+            <figure class="bg-slate-custom rounded-full p-2">
+              <img src="../assets/icon-microscope.svg" alt="microscope">
+            </figure>
+            <div class="content-label-category">
+              <h1 class="font-semibold text-md">Biologi</h1>
+              <p class="font-normal text-sm text-slate-600">2 Kelas</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center flex justify-center w-full">
+          <a href="#class" class="text-blue-purple links flex items-center gap-2">Explore All Courses <span><img
+                src="../assets/icon-double-next.svg" alt=""></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------- TRY CTA SECTION --------------------------------------- -->
+    <section id="try-cta" class="spacing-x sm:px-16 px-6 flex justify-center items-center rounded-sm pb-24">
+      <div class="container w-full max-w-[1080px] bg-slate-custom py-20 px-10 lg:px-40 gap-20 flex flex-wrap lg:flex-nowrap">
+        <figure>
+          <img src="../assets/business-image.png" alt="business-image">
+        </figure>
+        <div class="w-full lg:w-1/2">
+          <h1 class="text-4xl font-bold">Tingkatkan Skill Tim Anda</h1>
+          <p class="my-10 text-slate-500 text-md">Berikan tim Anda pengetahuan, pengalaman, dan keyakinan yang mereka
+            butuhkan untuk mengatasi setiap masalah. Kami ingin menciptakan dunia di mana siapa pun dapat membangun
+            sesuatu yang bermakna</p>
+          <a href="#kelas"
+            class="inline-flex py-4 px-6 items-center gap-5 bg-blue-purple hover:bg-blue-purple-hover text-white rounded-md text-sm">Try
+            For Business<span><img src="../assets/icon-arrowlong-right.svg" alt="icon-right"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------- EVENTS SECTION --------------------------------------- -->
+    <section id="events" class="spacing-x sm:px-16 px-6 flex justify-center items-center py-24">
+      <div class="container w-full max-w-[1080px]">
+        <h1 class="title-categories-popular text-3xl font-bold text-center">Event <span class="underline-custom">Sedang Berlangsung</span> di dekatmu</h1>
+        <div class="cards-event grid grid-cols-2 lg:grid-cols-3 my-16 gap-6">
+          <!-- CARD 1 -->
+          <div class="card-event cursor-pointer mt-4">
+            <figure>
+              <img src="../assets/event-1.png" alt="course-1">
+            </figure>
+            <div class="content-card">
+              <div class="desc flex py-3">
+                <div class="date">
+                  <p class="text-blue-purple text-2xl font-bold">21</p>
+                  <p class="text-xs font-semibold text-slate-500">March</p>
+                </div>
+                <div class="location border-l ml-2 pl-3 flex items-center">
+                  <span class="flex items-center gap-1 text-xs text-slate-500"><img src="../assets/icon-location.svg"
+                      alt="location">North Caroline United States</span>
+                </div>
+              </div>
+              <h1 class="text-lg font-bold">Linear Regression in Python: <br /> Introduction to Simple Linear</h1>
+            </div>
+          </div>
+          <!-- CARD 2 -->
+          <div class="card-event cursor-pointer mt-4">
+            <figure>
+              <img src="../assets/event-2.png" alt="course-1">
+            </figure>
+            <div class="content-card">
+              <div class="desc flex py-3">
+                <div class="date">
+                  <p class="text-blue-purple text-2xl font-bold">21</p>
+                  <p class="text-xs font-semibold text-slate-500">March</p>
+                </div>
+                <div class="location border-l ml-2 pl-3 flex items-center">
+                  <span class="flex items-center gap-1 text-xs text-slate-500"><img src="../assets/icon-location.svg"
+                      alt="location">North Caroline United States</span>
+                </div>
+              </div>
+              <h1 class="text-lg font-bold">Linear Regression in Python: <br /> Introduction to Simple Linear</h1>
+            </div>
+          </div>
+          <!-- CARD 3 -->
+          <div class="card-event cursor-pointer mt-4">
+            <figure>
+              <img src="../assets/event-3.png" alt="course-1">
+            </figure>
+            <div class="content-card">
+              <div class="desc flex py-3">
+                <div class="date">
+                  <p class="text-blue-purple text-2xl font-bold">21</p>
+                  <p class="text-xs font-semibold text-slate-500">March</p>
+                </div>
+                <div class="location border-l ml-2 pl-3 flex items-center">
+                  <span class="flex items-center gap-1 text-xs text-slate-500"><img src="../assets/icon-location.svg"
+                      alt="location">North Caroline United States</span>
+                </div>
+              </div>
+              <h1 class="text-lg font-bold">Linear Regression in Python: <br /> Introduction to Simple Linear</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------- FOOTER --------------------------------------- -->
+    <section id="footer" class="spacing-x sm:px-16 px-6 flex justify-center items-center bg-blue-old pt-16 pb-10 text-white">
+      <div class="container w-full max-w-[1080px]">
+        <div class="desc-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-36">
+          <div class="footer-desc">
+            <a class="logo" href="#home">
+              <img src="../assets/logo-ligasmk-white.png" alt="logo-ligasmk" class="w-28" />
+            </a>
+            <p class="mt-10 text-slate-400 text-sm">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta
+              di bidang teknologi digital.</p>
+            <div class="social-media mt-10 flex items-center gap-6">
+              <a href="#facebook">
+                <img src="../assets/icon-facebook-white.svg" alt="facebook">
+              </a>
+              <a href="#twitter">
+                <img src="../assets/icon-twitter-white.svg" alt="twitter">
+              </a>
+              <a href="linkedin">
+                <img src="../assets/icon-linkedin-white.svg" alt="linkedin">
+              </a>
+              <a href="youtube">
+                <img src="../assets/icon-youtube-white.svg" alt="youtube">
+              </a>
+            </div>
+          </div>
+          <div class="footer-resource">
+            <h1 class="text-lg font-semibold">Resource</h1>
+            <ul class="mt-10 text-slate-400 text-sm leading-8">
+              <li><a href="#build-career">Build Career</a></li>
+              <li><a href="#explore-subjects">Explore Subjects</a></li>
+              <li><a href="#gain-a-skill">Gain a Skill</a></li>
+            </ul>
+          </div>
+          <div class="footer-resource">
+            <h1 class="text-lg font-semibold">Support</h1>
+            <ul class="mt-10 text-slate-400 text-sm leading-8">
+              <li><a href="#web-development">Web Development</a></li>
+              <li><a href="#data-science">Data Science</a></li>
+              <li><a href="#machine-learning">Machine Learning</a></li>
+              <li><a href="developer-tools">Developer Tools</a></li>
+              <li><a href="web-design">Web Design</a></li>
+            </ul>
+          </div>
+          <div class="footer-download">
+            <h1 class="text-lg text-lef font-semibold">Download Now</h1>
+            <div class="download-btn mt-10 bg-white py-3 px-4 inline-block rounded-lg">
+              <img src="../assets/logo-appstore.png" alt="app-store">
+            </div>
+            <div class="download-btn mt-2 bg-white py-3 px-4 inline-block rounded-lg">
+              <img src="../assets/logo-googleplay.png" alt="app-store">
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-slate-700 mt-16 flex justify-between items-center">
+          <ul class="mt-10 text-slate-400 text-sm grid grid-cols-1 leading-8 md:flex justify-between font-semibold w-full">
+            <div class="left flex gap-10 md:text-sm text-xs">
+              <li><a href="#site-map">Site Map</a></li>
+              <li><a href="#privacy-police">Privacy Police</a></li>
+              <li><a href="#terms-and-condition">Terms and Condition</a></li>
+              <li><a href="#contact-us">Contact Us</a></li>
+              <li><a href="#forums">Forums</a></li>
+            </div>
+            <div class="right md:text-right text-center mt-10 md:mt-0">
+              <p class="text-slate-400 text-sm leading-8">Liga SMK 2023</pc>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
